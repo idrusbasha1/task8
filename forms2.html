@@ -1,0 +1,86 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <center>
+        <h1>Forms</h1>
+        
+            <form action="./submit.html">
+                <pre>
+                    <fieldset>
+                        <h1>I am here to  10kcoders &#128682; and i wanna learn subject and become a developer &#x1f4bb;</h1>
+                        <legend>Register here</legend>
+                        <div style="background-color: cornflowerblue;">
+                            <label for="">Name--</label>    
+                            <input type="text" placeholder="Enter name here" required pattern="[a-zA-Z0-9]{3,}"/>
+                        </div>
+                        <div style="background-color: bisque;">
+                            <label for="pswd">Password--</label>
+                            <input type="password" id="pswd" placeholder="password" required pattern="[A-Za-z@#$%0-9]{5,}">
+                        </div>
+                        <div style="background-color: cyan;">
+                            <label for="email">Enter email--</label>
+                            <input type="email" id="email" placeholder="enter email" required
+                             pattern="[a-zA-Z0-9]+@[a-z]+\.[a-z]{,}"/>
+                        </div>
+                        <div style="background-color: coral;"> 
+                            <label for="">Education</label>
+                            <select name="" id=""  style="width: 170px;" required>
+                                <option value="choose from below">choose from below</option>
+                                <option value="B. Tech">B.Tech</option>
+                                <option value="MCA">MCA</option>
+                                <option value="MBA">MBA</option>
+                                <option value="B.Sc">B.sc</option>
+                                <option value="B.com">B.com</option>
+                                <option value="BBA">BBA</option>
+                            </select>
+                        </div>
+                        <div style="background-color: chartreuse;">
+                            <label for="">location</label>
+                            <input type="text" list="location"/>
+                            <datalist id="location">
+                                <option value="HYD">HYD</option>
+                                <option value="BNG">BNG</option>
+                                <option value="MUM">MUM</option>
+                            </datalist>
+                        </div>
+                        <div style="background-color: magenta;">
+                        <input type="file" multiple>
+                        </div>
+                        <div style="background-color: goldenrod;">
+                            <input type="radio" id="Male" name="name" required >
+                            <label for="Male">Male</label><br>
+                            <input type="radio" id="Female" name="name" required>
+                            <label for="Female">Female</label><br>
+                            <input type="radio" id="others" name="name" required>
+                            <label for="others">others</label><br>
+                        </div>
+                        <div style="background-color: rgb(180, 173, 255);">
+                        <input type="checkbox"/>   I agree to <a href="">terms</a> and <a href="">conditions</a>
+                        </div>
+                        <div style="background-color: violet;">
+                            <textarea name="" id="" rows="5" cols="50" >
+                            
+                                
+                            </textarea>
+                        </div>
+                        <div style="background-color: peachpuff;">
+                    
+                        <button>submit</button>
+                        </div>
+
+
+                    </fieldset>
+                </pre>
+
+
+
+
+
+            </form>
+
+        </center>
+    </body>
+
+</html>
